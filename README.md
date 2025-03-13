@@ -1,7 +1,7 @@
 # webappdeploy
 A Simple Web Application Deployment Using Python
 
-# Key Tasks to Creat Virtual Deploymnet Environment
+# Key Tasks to Create Virtual Deployment Environment
 1. python3 -m venv .venv
 2. source .venv/bin/activate
 3. python3 -m pip install -r requirements.txt
