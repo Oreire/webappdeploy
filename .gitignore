@@ -1,17 +1,9 @@
 // This file is used to ignore files and directories in the repository
 // For more information about the .gitignore file, see https://git-scm.com/docs/gitignore
 # Environments
-.env
 .venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
 
 # mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
+_py_cache_
 
 

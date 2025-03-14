@@ -3,9 +3,11 @@ A Simple Web Application Deployment Using Python
 
 # Key Tasks to Create Virtual Deployment Environment
 1. python3 -m venv .venv
-2. source .venv/bin/activate
-3. python3 -m pip install -r requirements.txt
-4. uvicorn main:app --reload  (Starts the FastAPI server after execution of python script)
+2. source .venv/bin/activate (on mac /linux machines)
+3. .venv\Scripts\activate.bat (windows CMD)
+4. .venv\Scripts\Activate.ps1 (windows powershell)
+5. python3 -m pip install -r requirements.txt
+6. uvicorn main:app --reload  (Starts the FastAPI server after execution of python script)
 
 The provided Python code is a basic example of a FastAPI web application:
 
